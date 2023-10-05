@@ -1,0 +1,37 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    double a, b, h;
+
+    
+    cout << "Insert cob into cut a: ";
+    cin >> a;
+    cout << "Enter the end of section b: ";
+    cin >> b;
+    cout << "Enter code h:";
+    cin >> h;
+
+
+    cout << "-------------------" << endl;
+    cout << ": X : Y :" << endl;
+    cout << "-------------------" << endl;
+
+    
+    for (double x = a; x <= b; x += h) {
+  
+        if ((x >= -3) && (x <= 3)) {
+            double y = pow(x, 5) - sqrt(9 - pow(x, 2));
+            cout << ": " << setw(5) << x << " : " << setw(5) << y << " :" << endl;
+            cout << "-------------------" << endl;
+        } else {
+            cout << "Significance x = " << x << " do not belong to the area of assigned function. " << endl;
+            break; 
+        }
+    }
+
+    return 0;
+}
