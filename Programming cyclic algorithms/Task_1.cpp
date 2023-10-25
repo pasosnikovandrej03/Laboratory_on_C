@@ -13,7 +13,7 @@ int main() {
 
         y = pow(sin(x), 5) + std::abs(5 * x - 1.5);
 
-        std::cout << "Для x = " << x << ", y = " << y << std::endl;
+        std::cout << "For x = " << x << ", y = " << y << std::endl;
     }
 
     return 0;
