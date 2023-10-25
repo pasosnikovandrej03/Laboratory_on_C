@@ -3,11 +3,9 @@
 int main() {
     int apartmentNumber;
 
-    // Запитуємо користувача ввести номер квартири
     std::cout << "Enter apartment number: ";
     std::cin >> apartmentNumber;
 
-    // Використовуємо оператор if або if-else для визначення кількості кімнат і жителів
     if (apartmentNumber == 101) {
         std::cout << "apartment " << apartmentNumber << " There are 3 rooms and 4 inhabitants." << std::endl;
     } else if (apartmentNumber == 102) {
