@@ -11,7 +11,7 @@ int main() {
 
     double average = sum_of_roots / 20;  
 
-    std::cout << "Середнє арифметичне коренів чисел від 1 до 20: " << average << std::endl;
+    std::cout << "Arithmetic mean root numbers from 1 to 20: " << average << std::endl;
 
     return 0;
 }
