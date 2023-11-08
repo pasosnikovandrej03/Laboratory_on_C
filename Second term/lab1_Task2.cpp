@@ -28,11 +28,6 @@ int main() {
         }
     }
 
-    if (maxIndex == -1) {
-        cout << "The array is empty." << endl;
-        return 0;
-    }
-
     for (int i = 0; i < maxIndex; i++) {
         if (arr[i] < 0) {
             arr[i] = 0;
